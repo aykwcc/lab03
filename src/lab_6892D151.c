@@ -5,8 +5,9 @@ long calculate_factorial(int number )
     if ( number < 1 ) {
         return 0;
     }
-    long long fac = 0 , ANS = 1;
-    for (long long i = 1 ; i <= number ; i++ ) {
+    int fac = 0;
+    long long ANS = 1;
+    for (int i = 1 ; i <= number ; i++ ) {
         fac = i;
         ANS *= fac;
     }

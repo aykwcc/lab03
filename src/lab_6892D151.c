@@ -3,7 +3,7 @@
 long calculate_factorial(int number )
 {
     if ( number < 1 ) {
-        return 0;
+        return -1;
     }
     int fac = 0;
     long long ANS = 1;

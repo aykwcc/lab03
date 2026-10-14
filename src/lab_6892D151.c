@@ -2,11 +2,11 @@
 
 long calculate_factorial(int number )
 {
-    if ( number < 1 ) {
+    if (! (1 <= number && number <= 20)) {
         return -1;
     }
     int fac = 0;
-    long long ANS = 1;
+    long ANS = 1;
     for (int i = 1 ; i <= number ; i++ ) {
         fac = i;
         ANS *= fac;
